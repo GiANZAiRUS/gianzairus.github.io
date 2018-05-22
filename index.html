@@ -6,21 +6,31 @@
 	<title>Gian Zairus Sarmiento - CV</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" class="">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+		* {
+			font-family: 'Lato', Sans-serif;
+		}
+		.panel-default>.panel-heading{
+			background-color: #4da6ff;
+			color: #f2f2f2;
+		}
+	</style>
 </head>
-<body>
+<body style="background: #f2f2f2;">
 	<div class="container">
-		<div class="col-sm-4">
+		<div class="col-sm-4" style="padding-top: 15px;">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h4 class="text-center"><span class="fas fa-user"></span> Personal Information</h4>
+					<h4 class="text-center"><i class="fas fa-user"></i> Personal Information</h4>
 				</div>
 				<div class="panel-body">
 					<img src="./id_picture.jpg" alt="1x1" class="img-thumbnail img-responsive center-block" style="height: 300px; width: 300px;">
 
-					<h3 class="center-block">Sarmiento, Gian Zairus A.</h3>
-					<span class="center-block">Bachelor of Science in Information Technology</span>
+					<h3 class="text-center center-block" style="font-weight: 700;">GIAN ZAIRUS <span style="color: #4da6ff;">SARMIENTO</span></h3>
+					<span class="text-center center-block" style="color: #666666;">Bachelor of Science in Information Technology</span>
 					<hr>
 					<span class="center-block">Address: 511 Amarlanhagui Street, Tondo, Manila</span>
 					<span class="center-block">Phone: +(63) 917-2433-992</span>
@@ -30,138 +40,161 @@
 					<span class="center-block">Nationality: Filipino</span>
 					<span class="center-block">Religion: Catholic</span>
 				</div>
+
+				<div class="panel-heading">
+					<h4 class="text-center">Skills</h4>
+				</div>
+				<div class="panel-body" style="font-size: 18px;">
+					<div class="col-sm-6">
+						<span class="center-block"><i class="fab fa-html5">  HTML</i></span>
+						<span class="center-block"><i class="fab fa-css3-alt"></i>  CSS</span>
+						<span class="center-block"><i class="fas fa-database"></i>  SQL</span>
+					</div>
+					<div class="col-sm-6">
+						<span class="center-block"><i class="fab fa-js"></i>  JavaScript</span>
+						<span class="center-block"><i class="fab fa-php"></i>  Php</span>
+					</div>
+				</div>
 			</div>
+
 		</div>
-		<div class="col-sm-8">
-			<div class="panel-body">
-				<!-- EDUCATION -->
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4 class="text-center">Educational Attainment</h4>
-					</div>
-					<div class="panel-body">
-						<div class="row">
-							<div class="col-sm-6">
-								<strong>Primary</strong>
-							</div>
-							<div class="col-sm-6">
-								<strong class="center-block">Elementary</strong>
-								<span class="center-block">Teodoro R. Yangco</span>
-								<span class="center-block">559 Esguerra St, Tondo, Manila</span>
-								<span class="center-block">SY 2004-2010</span>
-							</div>
+		<div class="col-sm-8" style="padding-top: 15px;">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="text-center"><i class="fas fa-briefcase"></i> Experience</h4>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-4">
+							<strong class="center-block">November 2017 - March 2018</strong>
 						</div>
-						<hr>
-						<div class="row">
-							<div class="col-sm-6">
-								<strong>Secondary</strong>
-							</div>
-							<div class="col-sm-6">
-								<strong class="center-block">High School</strong>
-								<span class="center-block">Lakan Dula High School</span>
-								<span class="center-block">Juan Luna St, Tondo, Manila</span>
-								<span class="center-block">SY 2010-2014</span>
-							</div>								
-						</div>
-						<hr>
-						<div class="row">
-							<div class="col-sm-6">
-								<strong>Tertiary</strong>
-							</div>
-							<div class="col-sm-6">
-								<strong class="center-block">College</strong>
-								<span class="center-block">National Teachers College</span>
-								<span class="center-block">629 Nepomuceno St, Quiapo, Manila</span>
-								<span class="center-block">SY 2014-2018</span>
-							</div>
+						<div class="col-sm-8">
+							<strong class="center-block">On-the-Job Training</strong>
+							<span class="center-block">Php and NodeJS Developer</span>
+							<ul>
+								<li>Created some mockup modules for their project.</li>
+							</ul>
+
 						</div>
 					</div>
 				</div>
 
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4 class="text-center">Seminars and Trainings Attended</h4>
+				<div class="panel-heading">
+					<h4 class="text-center"><i class="fas fa-graduation-cap"></i> Educational Attainment</h4>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-4">
+							<strong>Primary</strong>
+						</div>
+						<div class="col-sm-8">
+							<strong class="center-block">Elementary</strong>
+							<span class="center-block">Teodoro R. Yangco</span>
+							<span class="center-block">559 Esguerra St, Tondo, Manila</span>
+							<span class="center-block">SY 2004-2010</span>
+						</div>
 					</div>
-					<div class="panel-body">
-						<div class="row">
-							<div class="col-sm-8">
-								<strong class="center-block">ICT Conference in Entrepreneurship</strong>
-								<span class="center-block">Hospitality and Management</span> 
-								<span class="center-block">Driving Force of Business</span>
-								<span class="center-block">Big Data Analytics</span>
-								<span class="center-block">Adobe Creative Cloud in Business</span>
-								<span class="center-block">Entrepreneurial and Career Innovation</span>
-								<span class="center-block">Technopreneurship</span>
-								<span class="center-block">Tanghalang Pasigueno, Pasig City</span>
-							</div>
-							<div class="col-sm-4">
-								<span class="center-block">October 15,2017</span>
-							</div>
+					<hr>
+					<div class="row">
+						<div class="col-sm-4">
+							<strong>Secondary</strong>
 						</div>
-						<hr>
-						<div class="row">
-							<div class="col-sm-8">
-								<strong class="center-block">Tech Tutor 9</strong>
-								<span class="center-block">Empowering education in a connected world</span>
-								<span class="center-block">Megatrade Hall 2, SM Megamall, Mandaluyong</span>
-							</div>
-							<div class="col-sm-4">
-								<span class="center-block">September 27, 2017</span>	
-							</div>
+						<div class="col-sm-8">
+							<strong class="center-block">High School</strong>
+							<span class="center-block">Lakan Dula High School</span>
+							<span class="center-block">Juan Luna St, Tondo, Manila</span>
+							<span class="center-block">SY 2010-2014</span>
+						</div>								
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-sm-4">
+							<strong>Tertiary</strong>
 						</div>
-						<hr>
-						<div class="row">
-							<div class="col-sm-8">
-								<strong class="center-block">Software Freedom Day Philippines</strong>
-								<span class="center-block">Celebrating Free & Open Source Software since 2004</span>
-								<span class="center-block">PUP Taguig Branch, Gen. Santos Avenue, Lower Bicutan, Taguig</span>
-							</div>
-							<div class="col-sm-4">
-								<span class="center-block">September 16, 2017</span>
-							</div>
+						<div class="col-sm-8">
+							<strong class="center-block">College</strong>
+							<span class="center-block">National Teachers College</span>
+							<span class="center-block">629 Nepomuceno St, Quiapo, Manila</span>
+							<span class="center-block">SY 2014-2018</span>
 						</div>
-						<hr>
-						<div class="row">
-							<div class="col-sm-8">
-								<strong class="center-block">System Unit Assembly & Dissambly</strong>
-								<span class="center-block">National Teachers College</span>
-								<span class="center-block">629 Nepomuceno St, Quiapo, Manila</span>
-							</div>
-							<div class="col-sm-4">
-								<span class="center-block">July 26, 2017</span>
-							</div>
-						</div>
-						<hr>
-						<div class="row">
-							<div class="col-sm-8">
-								<strong class="center-block">Computer Society Club</strong>
-								<span class="center-block">Videography</span>
-								<span class="center-block">Video Editing</span>
-								<span class="center-block">Digital Photography</span>
-								<span class="center-block">Photo Editing</span>
-								<span class="center-block">National Teachers College</span>
-								<span class="center-block">629 Nepomuceno St, Quiapo, Manila</span>
-							</div>
-							<div class="col-sm-4">
-								<span class="center-block">February 24,2017</span>
-							</div>
-						</div>
-
 					</div>
 				</div>
 
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4 class="text-center">Skills</h4>
-					</div>
-					<div class="panel-body">
-						<div class="col-sm-6">
-							
+				<div class="panel-heading">
+					<h4 class="text-center">Seminars and Trainings Attended</h4>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+
+						<div class="col-sm-4">
+							<strong class="center-block">October 15,2017</strong>
 						</div>
-						<div class="col-sm-6"></div>
+						<div class="col-sm-8">
+							<strong class="center-block">ICT Conference in Entrepreneurship</strong>
+							<span class="center-block">Hospitality and Management</span> 
+							<span class="center-block">Driving Force of Business</span>
+							<span class="center-block">Big Data Analytics</span>
+							<span class="center-block">Adobe Creative Cloud in Business</span>
+							<span class="center-block">Entrepreneurial and Career Innovation</span>
+							<span class="center-block">Technopreneurship</span>
+							<span class="center-block">Tanghalang Pasigueno, Pasig City</span>
+						</div>
 					</div>
+					<hr>
+					<div class="row">
+						
+						<div class="col-sm-4">
+							<strong class="center-block">September 27, 2017</strong>	
+						</div>
+						<div class="col-sm-8">
+							<strong class="center-block">Tech Tutor 9</strong>
+							<span class="center-block">Empowering education in a connected world</span>
+							<span class="center-block">Megatrade Hall 2, SM Megamall, Mandaluyong</span>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+
+						<div class="col-sm-4">
+							<strong class="center-block">September 16, 2017</strong>
+						</div>
+						<div class="col-sm-8">
+							<strong class="center-block">Software Freedom Day Philippines</strong>
+							<span class="center-block">Celebrating Free & Open Source Software since 2004</span>
+							<span class="center-block">PUP Taguig Branch, Gen. Santos Avenue, Lower Bicutan, Taguig</span>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-sm-4">
+							<strong class="center-block">July 26, 2017</strong>
+						</div>
+						<div class="col-sm-8">
+							<strong class="center-block">System Unit Assembly & Dissambly</strong>
+							<span class="center-block">National Teachers College</span>
+							<span class="center-block">629 Nepomuceno St, Quiapo, Manila</span>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+
+						<div class="col-sm-4">
+							<strong class="center-block">February 24,2017</strong>
+						</div>
+						<div class="col-sm-8">
+							<strong class="center-block">Computer Society Club</strong>
+							<span class="center-block">Videography</span>
+							<span class="center-block">Video Editing</span>
+							<span class="center-block">Digital Photography</span>
+							<span class="center-block">Photo Editing</span>
+							<span class="center-block">National Teachers College</span>
+							<span class="center-block">629 Nepomuceno St, Quiapo, Manila</span>
+						</div>
+					</div>
+
 				</div>
 			</div>
+
 		</div>
 	</div>
 </body>
